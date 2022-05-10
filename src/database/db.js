@@ -4,10 +4,10 @@ const connection = new Sequelize("postgres://admin:JX1fyHEXQZgTils6WGaBCRptDVwQB
   dialect: "postgres",
   dialectOpitions: {  ssl: {
     require: true,
-    rejectUnauthorized: false,
-},
+    rejectUnauthorized: false
+}
    
-  },
+  }
 });
 
 module.exports = connection;
