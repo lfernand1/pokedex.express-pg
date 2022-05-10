@@ -1,4 +1,3 @@
-const res = require("express/lib/response");
 const Pokemon = require("../models/Pokemon");
 
 const getAll = async (req, res) => {
