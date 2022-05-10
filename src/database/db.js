@@ -1,6 +1,6 @@
 const Sequelize = require("sequelize");
 
-const connection = new Sequelize("postgres://admin:PrQSJ4dYNdE5WaTIbvcHWmNYc1rFbVFz@dpg-c9su68fd17cd03l5igf0-a.oregon-postgres.render.com/dbblue", {
+const connection = new Sequelize("postgres://admin:JX1fyHEXQZgTils6WGaBCRptDVwQB0Xs@dpg-c9tfhmn9re0h93t4vgm0-a.oregon-postgres.render.com/pokemon_bgxz", {
   dialect: "postgres",
   dialectOpitions: {  ssl: {
     require: true,
