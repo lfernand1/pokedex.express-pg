@@ -62,7 +62,7 @@ const update = async (req, res) => {
     const pokemon = req.body;
     await Pokemon.update(pokemon, { where: { id: req.params.id } });
     res.redirect("/");
-  } catch (err) {
+  } catch(err) {
     res.status(500).send({ err: err.message });
   }
 };
